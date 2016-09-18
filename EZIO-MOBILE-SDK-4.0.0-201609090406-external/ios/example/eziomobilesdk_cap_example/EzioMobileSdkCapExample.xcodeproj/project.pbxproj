@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0902ABF41AAF157B00793D1A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0902ABF31AAF157B00793D1A /* libc++.dylib */; };
+		0902ABF61AAF158100793D1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0902ABF51AAF158100793D1A /* SystemConfiguration.framework */; };
+		0902ABF81AAF158700793D1A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0902ABF71AAF158700793D1A /* CFNetwork.framework */; };
+		281D52CF16A7FDE300D1DAE6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D52CE16A7FDE300D1DAE6 /* Security.framework */; };
+		28674EF116AE7C82007F6723 /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 28674EF016AE7C82007F6723 /* Example.m */; };
+		28A13D8E16A6EE76008D6A2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A13D8D16A6EE76008D6A2A /* UIKit.framework */; };
+		28A13D9016A6EE76008D6A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A13D8F16A6EE76008D6A2A /* Foundation.framework */; };
+		28A13D9216A6EE76008D6A2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A13D9116A6EE76008D6A2A /* CoreGraphics.framework */; };
+		28A13D9816A6EE76008D6A2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28A13D9616A6EE76008D6A2A /* InfoPlist.strings */; };
+		28A13D9A16A6EE76008D6A2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A13D9916A6EE76008D6A2A /* main.m */; };
+		28A13D9E16A6EE76008D6A2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A13D9D16A6EE76008D6A2A /* AppDelegate.m */; };
+		28A13DA016A6EE76008D6A2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A13D9F16A6EE76008D6A2A /* Default.png */; };
+		28A13DA216A6EE76008D6A2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A13DA116A6EE76008D6A2A /* Default@2x.png */; };
+		28A13DA416A6EE76008D6A2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A13DA316A6EE76008D6A2A /* Default-568h@2x.png */; };
+		28A13DA716A6EE76008D6A2A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A13DA516A6EE76008D6A2A /* MainStoryboard_iPhone.storyboard */; };
+		28A13DAD16A6EE76008D6A2A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A13DAC16A6EE76008D6A2A /* FirstViewController.m */; };
+		28A13DAF16A6EE76008D6A2A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A13DAE16A6EE76008D6A2A /* first.png */; };
+		28A13DB116A6EE76008D6A2A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A13DB016A6EE76008D6A2A /* first@2x.png */; };
+		28B2508B16AD8BBF00348B65 /* FakeAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2508816AD8BBF00348B65 /* FakeAppData.m */; };
+		28B2508C16AD8BBF00348B65 /* FakeUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2508A16AD8BBF00348B65 /* FakeUI.m */; };
+		28B2508F16AD8BF500348B65 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D52D316A7FE2A00D1DAE6 /* libsqlite3.0.dylib */; };
+		82DE849E1D3F2583007B88AB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DE849D1D3F2583007B88AB /* LocalAuthentication.framework */; };
+		D1C1651F19A3860900923E9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C1651E19A3860900923E9D /* QuartzCore.framework */; };
+		F89B0CD41CF5746F007D6663 /* EzioMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89B0CD31CF5746F007D6663 /* EzioMobile.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0902ABF31AAF157B00793D1A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0902ABF51AAF158100793D1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0902ABF71AAF158700793D1A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		281D52CE16A7FDE300D1DAE6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		281D52D316A7FE2A00D1DAE6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		283A5FEE16AFF05600241D01 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		28674EEF16AE7C82007F6723 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		28674EF016AE7C82007F6723 /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example.m; sourceTree = "<group>"; };
+		28A13D8916A6EE76008D6A2A /* EzioMobileSdkCapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzioMobileSdkCapExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A13D8D16A6EE76008D6A2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A13D8F16A6EE76008D6A2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28A13D9116A6EE76008D6A2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A13D9516A6EE76008D6A2A /* EzioMobileSdkCapExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EzioMobileSdkCapExample-Info.plist"; sourceTree = "<group>"; };
+		28A13D9716A6EE76008D6A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28A13D9916A6EE76008D6A2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28A13D9B16A6EE76008D6A2A /* EzioMobileSdkCapExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EzioMobileSdkCapExample-Prefix.pch"; sourceTree = "<group>"; };
+		28A13D9C16A6EE76008D6A2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28A13D9D16A6EE76008D6A2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28A13D9F16A6EE76008D6A2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		28A13DA116A6EE76008D6A2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		28A13DA316A6EE76008D6A2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		28A13DA616A6EE76008D6A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		28A13DAB16A6EE76008D6A2A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28A13DAC16A6EE76008D6A2A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		28A13DAE16A6EE76008D6A2A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		28A13DB016A6EE76008D6A2A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		28B2508716AD8BBF00348B65 /* FakeAppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeAppData.h; sourceTree = "<group>"; };
+		28B2508816AD8BBF00348B65 /* FakeAppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeAppData.m; sourceTree = "<group>"; };
+		28B2508916AD8BBF00348B65 /* FakeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeUI.h; sourceTree = "<group>"; };
+		28B2508A16AD8BBF00348B65 /* FakeUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeUI.m; sourceTree = "<group>"; };
+		82DE849D1D3F2583007B88AB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		D1C1651E19A3860900923E9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F89B0CD31CF5746F007D6663 /* EzioMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EzioMobile.framework; path = ../../../../dist/ios/external/debug/EzioMobile.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A13D8616A6EE76008D6A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DE849E1D3F2583007B88AB /* LocalAuthentication.framework in Frameworks */,
+				F89B0CD41CF5746F007D6663 /* EzioMobile.framework in Frameworks */,
+				0902ABF81AAF158700793D1A /* CFNetwork.framework in Frameworks */,
+				0902ABF61AAF158100793D1A /* SystemConfiguration.framework in Frameworks */,
+				0902ABF41AAF157B00793D1A /* libc++.dylib in Frameworks */,
+				D1C1651F19A3860900923E9D /* QuartzCore.framework in Frameworks */,
+				28B2508F16AD8BF500348B65 /* libsqlite3.0.dylib in Frameworks */,
+				281D52CF16A7FDE300D1DAE6 /* Security.framework in Frameworks */,
+				28A13D8E16A6EE76008D6A2A /* UIKit.framework in Frameworks */,
+				28A13D9016A6EE76008D6A2A /* Foundation.framework in Frameworks */,
+				28A13D9216A6EE76008D6A2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A13D7E16A6EE76008D6A2A = {
+			isa = PBXGroup;
+			children = (
+				283A5FEE16AFF05600241D01 /* README.txt */,
+				28A13D9316A6EE76008D6A2A /* EzioMobileSdkCapExample */,
+				28A13D8C16A6EE76008D6A2A /* Frameworks */,
+				28A13D8A16A6EE76008D6A2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A13D8A16A6EE76008D6A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A13D8916A6EE76008D6A2A /* EzioMobileSdkCapExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A13D8C16A6EE76008D6A2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DE849D1D3F2583007B88AB /* LocalAuthentication.framework */,
+				F89B0CD31CF5746F007D6663 /* EzioMobile.framework */,
+				0902ABF71AAF158700793D1A /* CFNetwork.framework */,
+				0902ABF51AAF158100793D1A /* SystemConfiguration.framework */,
+				0902ABF31AAF157B00793D1A /* libc++.dylib */,
+				D1C1651E19A3860900923E9D /* QuartzCore.framework */,
+				281D52D316A7FE2A00D1DAE6 /* libsqlite3.0.dylib */,
+				281D52CE16A7FDE300D1DAE6 /* Security.framework */,
+				28A13D8D16A6EE76008D6A2A /* UIKit.framework */,
+				28A13D8F16A6EE76008D6A2A /* Foundation.framework */,
+				28A13D9116A6EE76008D6A2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28A13D9316A6EE76008D6A2A /* EzioMobileSdkCapExample */ = {
+			isa = PBXGroup;
+			children = (
+				28B2508516AD8BA600348B65 /* fake */,
+				28A13D9C16A6EE76008D6A2A /* AppDelegate.h */,
+				28A13D9D16A6EE76008D6A2A /* AppDelegate.m */,
+				28A13DA516A6EE76008D6A2A /* MainStoryboard_iPhone.storyboard */,
+				28A13DAB16A6EE76008D6A2A /* FirstViewController.h */,
+				28A13DAC16A6EE76008D6A2A /* FirstViewController.m */,
+				28A13DAE16A6EE76008D6A2A /* first.png */,
+				28A13DB016A6EE76008D6A2A /* first@2x.png */,
+				28A13D9416A6EE76008D6A2A /* Supporting Files */,
+				28674EEF16AE7C82007F6723 /* Example.h */,
+				28674EF016AE7C82007F6723 /* Example.m */,
+			);
+			path = EzioMobileSdkCapExample;
+			sourceTree = "<group>";
+		};
+		28A13D9416A6EE76008D6A2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A13D9516A6EE76008D6A2A /* EzioMobileSdkCapExample-Info.plist */,
+				28A13D9616A6EE76008D6A2A /* InfoPlist.strings */,
+				28A13D9916A6EE76008D6A2A /* main.m */,
+				28A13D9B16A6EE76008D6A2A /* EzioMobileSdkCapExample-Prefix.pch */,
+				28A13D9F16A6EE76008D6A2A /* Default.png */,
+				28A13DA116A6EE76008D6A2A /* Default@2x.png */,
+				28A13DA316A6EE76008D6A2A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28B2508516AD8BA600348B65 /* fake */ = {
+			isa = PBXGroup;
+			children = (
+				28B2508716AD8BBF00348B65 /* FakeAppData.h */,
+				28B2508816AD8BBF00348B65 /* FakeAppData.m */,
+				28B2508916AD8BBF00348B65 /* FakeUI.h */,
+				28B2508A16AD8BBF00348B65 /* FakeUI.m */,
+			);
+			path = fake;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A13D8816A6EE76008D6A2A /* EzioMobileSdkCapExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A13DBB16A6EE77008D6A2A /* Build configuration list for PBXNativeTarget "EzioMobileSdkCapExample" */;
+			buildPhases = (
+				28A13D8516A6EE76008D6A2A /* Sources */,
+				28A13D8616A6EE76008D6A2A /* Frameworks */,
+				28A13D8716A6EE76008D6A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzioMobileSdkCapExample;
+			productName = EzioMobileSdkCapExample;
+			productReference = 28A13D8916A6EE76008D6A2A /* EzioMobileSdkCapExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A13D8016A6EE76008D6A2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gemalto;
+				TargetAttributes = {
+					28A13D8816A6EE76008D6A2A = {
+						DevelopmentTeam = LMY4YJ949Q;
+					};
+				};
+			};
+			buildConfigurationList = 28A13D8316A6EE76008D6A2A /* Build configuration list for PBXProject "EzioMobileSdkCapExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28A13D7E16A6EE76008D6A2A;
+			productRefGroup = 28A13D8A16A6EE76008D6A2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A13D8816A6EE76008D6A2A /* EzioMobileSdkCapExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A13D8716A6EE76008D6A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A13D9816A6EE76008D6A2A /* InfoPlist.strings in Resources */,
+				28A13DA016A6EE76008D6A2A /* Default.png in Resources */,
+				28A13DA216A6EE76008D6A2A /* Default@2x.png in Resources */,
+				28A13DA416A6EE76008D6A2A /* Default-568h@2x.png in Resources */,
+				28A13DA716A6EE76008D6A2A /* MainStoryboard_iPhone.storyboard in Resources */,
+				28A13DAF16A6EE76008D6A2A /* first.png in Resources */,
+				28A13DB116A6EE76008D6A2A /* first@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A13D8516A6EE76008D6A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A13D9A16A6EE76008D6A2A /* main.m in Sources */,
+				28A13D9E16A6EE76008D6A2A /* AppDelegate.m in Sources */,
+				28A13DAD16A6EE76008D6A2A /* FirstViewController.m in Sources */,
+				28B2508B16AD8BBF00348B65 /* FakeAppData.m in Sources */,
+				28B2508C16AD8BBF00348B65 /* FakeUI.m in Sources */,
+				28674EF116AE7C82007F6723 /* Example.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28A13D9616A6EE76008D6A2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A13D9716A6EE76008D6A2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28A13DA516A6EE76008D6A2A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A13DA616A6EE76008D6A2A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28A13DB916A6EE77008D6A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		28A13DBA16A6EE77008D6A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-finline-functions",
+					"-fstack-protector-all",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		28A13DBC16A6EE77008D6A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../$CONFIGURATION\"",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzioMobileSdkCapExample/EzioMobileSdkCapExample-Prefix.pch";
+				INFOPLIST_FILE = "EzioMobileSdkCapExample/EzioMobileSdkCapExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gemalto.ezio.mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28A13DBD16A6EE77008D6A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../$CONFIGURATION\"",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzioMobileSdkCapExample/EzioMobileSdkCapExample-Prefix.pch";
+				INFOPLIST_FILE = "EzioMobileSdkCapExample/EzioMobileSdkCapExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-fstack-protector-all",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gemalto.ezio.mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A13D8316A6EE76008D6A2A /* Build configuration list for PBXProject "EzioMobileSdkCapExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A13DB916A6EE77008D6A2A /* Debug */,
+				28A13DBA16A6EE77008D6A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A13DBB16A6EE77008D6A2A /* Build configuration list for PBXNativeTarget "EzioMobileSdkCapExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A13DBC16A6EE77008D6A2A /* Debug */,
+				28A13DBD16A6EE77008D6A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A13D8016A6EE76008D6A2A /* Project object */;
+}
